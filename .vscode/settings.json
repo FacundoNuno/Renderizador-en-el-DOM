@@ -1,0 +1,55 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "files.autoSave": "afterDelay",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
+    "editor.tabSize": 5,
+    "editor.fontWeight": "200",
+
+    "editor.tokenColorCustomizations": {
+        "[Operator Mono Dark Theme]": {
+          "textMateRules": [{
+            "scope": [
+              "comment",
+              "punctuation.definition.comment",
+              "comment.block",
+              "comment.line",
+              "comment.block.documentation",
+              "comment.line.double-slash",
+              "entity.other.attribute-name",
+              "entity.other.attribute-name.html",
+              "markup.italic",
+              "entity.other.attribute-name.id",
+              "entity.other.attribute-name.class.css",
+              "entity.other.attribute-name.tag.jade",
+              "entity.other.attribute-name.class.jade",
+              "entity.other.attribute-name.id.jade",
+              "keyword.control",
+              "storage",
+              "emphasis",
+              "variable.language"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          }]
+        }
+      },
+      "workbench.colorTheme": "Dark SynthWave '84",
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "window.zoomLevel": 1
+
+}
